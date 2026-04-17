@@ -32,7 +32,7 @@ def main():
     laundry = get_input("Laundry per month? (₹): ")
     stationery = get_input("Stationery/prints per month? (₹): ")
     
-    # the fun part - random expenses
+    # the unforseen part - random expenses
     print("\n--- CHAI & CHILL EXPENSES (be honest) ---")
     snacks = get_input("Chai/coffee + snacks per week? (₹): ") * 4  # converting to month
     eating_out = get_input("Eating out with friends per month? (₹): ")
@@ -83,7 +83,6 @@ def main():
     print("\nps - this is just an estimate. real life always costs more")
     print("keep an extra 10-15% buffer just in case\n")
     
-    # ask if they want to save this somewhere
     save = input("want to save this to a file? (y/n): ").lower()
     if save == 'y':
         with open("my_budget.txt", "w") as f:
