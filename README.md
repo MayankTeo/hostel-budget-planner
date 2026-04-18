@@ -4,7 +4,7 @@ A simple Python calculator that helps students estimate their monthly hostel exp
 
 ## 🤔 Why I built this
 
-I'm a Class 12 student applying to Newton School of Technology. I wanted to know how much pocket money I'd actually need in college. My older cousin told me expenses add up fast, so I built this to get a realistic estimate.
+I'm a Class 12 student applying to colleges. I wanted to know how much pocket money I'd actually need in college. My older cousin told me expenses add up fast, so I built this to get a realistic estimate.
 
 ## ✨ Features
 
