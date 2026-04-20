@@ -19,24 +19,16 @@ def get_input(prompt):
         return get_input(prompt)
 
 def main():
-    welcome()
+    print("Hostel Budget Calculator")
     
-    # fixed expenses - things u cant avoid
-    print("--- FIXED STUFF (u have to pay this) ---")
-    mess = get_input("Mess fee per month? (₹): ")
-    hostel_rent = get_input("Hostel rent per month? (₹): ")
-    
-    # variable stuff - depends on u
-    print("\n--- VARIABLE STUFF (u control this) ---")
-    travel = get_input("Travel (local trains/auto/cab) per month? (₹): ")
-    laundry = get_input("Laundry per month? (₹): ")
-    stationery = get_input("Stationery/prints per month? (₹): ")
-    
-    # the unforseen part - random expenses
-    print("\n--- CHAI & CHILL EXPENSES (be honest) ---")
-    snacks = get_input("Chai/coffee + snacks per week? (₹): ") * 4  # converting to month
-    eating_out = get_input("Eating out with friends per month? (₹): ")
-    random_shit = get_input("Random stuff (phone recharge, netflix, etc)? (₹): ")
+    mess = float(input("Mess fee per month? (₹): "))
+    hostel_rent = float(input("Hostel rent per month? (₹): "))
+    travel = float(input("Travel per month? (₹): "))
+    laundry = float(input("Laundry per month? (₹): "))
+    stationery = float(input("Stationery per month? (₹): "))
+    snacks = float(input("Snacks per week? (₹): ")) * 4
+    eating_out = float(input("Eating out per month? (₹): "))
+    random_shit = float(input("Random stuff per month? (₹): ")
     
     # calculations (hope this is right lol)
     fixed_total = mess + hostel_rent
